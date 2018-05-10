@@ -1,0 +1,10 @@
+- clean: ['~']
+
+- link:
+    ~/.vim: vim/.vim/
+    ~/.vimrc: vim/.vimrc
+    ~/.gitconfig: git/.gitconfig
+
+# wsl で動作しないためコメントアウト
+#- shell:
+#  - [git submodule update --init --recursive, Installing submodules]
