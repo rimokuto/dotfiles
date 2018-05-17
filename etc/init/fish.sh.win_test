@@ -1,0 +1,14 @@
+# TOOD: 実行できるようにする
+curl -Lo ~/.config/fish/functions/fisher.fish --create-dirs git.io/fisher
+fisher z
+fisher edc/bass
+
+sudo apt install -y python-pip
+pip install --user powerline-shell
+
+git clone https://github.com/powerline/fonts.git --depth=1
+cd fonts
+./install.sh
+cd ..
+rm -rf fonts
+
