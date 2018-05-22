@@ -15,7 +15,8 @@ function fish_prompt
     set_color magenta
     printf '%s' $user
     set_color normal
-    printf ' at '
+    #printf ' at '
+    printf '@'
 
     set_color yellow
     printf '%s' (hostname -s)

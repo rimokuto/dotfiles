@@ -35,7 +35,7 @@ alias df 'command df -m'
 alias j jobs
 alias l ls
 alias ll 'ls -la --color'
-alias ls 'command ls -FG'
+#alias ls 'command ls -FG'
 alias su 'command su -m'
 
 function lsd -d 'List only directories (in the current dir)'
