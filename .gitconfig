@@ -76,6 +76,9 @@
   d4 = diff HEAD~~~~         # HEADから4つ前とdiff
   d5 = diff HEAD~~~~~        # HEADから5つ前とdiff
   d10 = diff HEAD~~~~~~~~~~  # HEADから10前とdiff
+  # git-brrowse-remote https://github.com/motemen/git-browse-remote
+  brs = browse-remote
+  brspr = browse-remote --pr
 
   # costum
   del-merged = "!f() { git branch --merged | grep -v \"*\" | grep -v \"master\" | xargs -I@ git branch -d @ ;}; f"
