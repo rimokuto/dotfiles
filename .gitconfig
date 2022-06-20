@@ -82,9 +82,14 @@
 
   # costum
   del-merged = "!f() { git branch --merged | grep -v \"*\" | grep -v \"master\" | xargs -I@ git branch -d @ ;}; f"
+  wip = commit -m '[ci skip] wip'
 
 [user]
 	email = j-tokumori@bns-g.com
 	name = Junya Tokumori
 [core]
 	editor = vim -c \"set fenc=utf-8\"
+[url "https://8ea76e7c4944284963ab2270b64ece7ac089c13e:x-oauth-basic@github.com/"]
+	insteadOf = https://github.com/
+[http]
+	postBuffer = 524288000
